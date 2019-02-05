@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Button } from 'antd';
-
+import Test from './components/test/testcontainer';
 
 class App extends Component {
   render() {
@@ -13,6 +13,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
+          <Test/>
           <a
             className="App-link"
             href="https://reactjs.org"
